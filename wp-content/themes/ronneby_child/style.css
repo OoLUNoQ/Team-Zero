@@ -1,0 +1,25 @@
+/*
+Theme Name:     Ronneby Child Theme
+Theme URI: 		http://themes.dfd.name/ronneby/
+Description:    ronneby - Highly Functional Multifaceted WP Theme
+Author:         DFD
+Author URI:		http://wpsaloon.com/
+Template:       ronneby
+Version:        1.0.0
+*/
+@media only screen and (max-width: 1100px) {
+	.dfd-side-by-side-mode-custom #header-container, .dfd-side-by-side-mode-custom #header-container #header {
+		position: fixed !important;
+		background: transparent;
+	}
+}
+@media only screen and (max-width: 800px) {
+	.dfd-side-by-side-mode-custom #header-container #header .header-wrap > .row:last-child {
+		background: transparent;
+	}
+}
+@media only screen and (max-width: 1100px) {
+	.dfd-side-by-side-mode-custom body.dfd-custom-padding-html #header-container #header {
+		padding: 0 30px;
+	}
+}
